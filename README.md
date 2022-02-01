@@ -13,6 +13,16 @@
 <hr>
 <br />
 
+Express and Node.js powered backend architecture wired up with Prisma ORM and Planet scale Serverless MySQL database to perform CRUD operations.
+
+Security aspects:
+- JWT Bearer secure
+- CORS
+- Rate Limiting
+
+
+### API Endpoints
+
 ```
 get("/detail/:email")
     description: get all the detail record of user by providing its email behind the endpoint
